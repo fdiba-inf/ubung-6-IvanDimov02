@@ -1,12 +1,14 @@
 package exercise6;
 
 import java.util.Scanner;
-import java.lang.Math;
+
 
 public class PasswordCheck {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         boolean valid = true;
+
         do{
           String password = input.nextLine();
           if (password.length() < 8) {
